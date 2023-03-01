@@ -175,6 +175,13 @@ public class RadioTest {
 
     }
 
+    @Test
+    public void setStationNew(){
+        Radio radio = new Radio(5);
+
+        Assertions.assertEquals(4, radio.getCurrentRadioStation());
+    }
+
 
 }
 
